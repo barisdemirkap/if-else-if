@@ -15,9 +15,9 @@ namespace if_else_if
                 Console.WriteLine("Iyi GECELER!!") ;
 
             string result = time <=18 ? "Iyi Gunler!!" : "Iyi GECELER!!" ;
-            result = time >= 6 && time<11 ? "Gunaydin!!" : time <=18 ? "Iyi Gunler!!" : "Iyi Geceler" ;
+            result = time >= 6 && time<11 ? "Gunaydin!!" : time <=18 ? "Iyi Gunle!!" : "Iyi Geceler" ;
             Console.WriteLine(result) ;
-            
+
            
         }
 
